@@ -1,0 +1,131 @@
+@font-face {
+    font-family: "icons";
+    src: url("../fonts/icons.eot?70ef3483e892561364d5d01ee771b6ae?#iefix") format("embedded-opentype"),
+url("../fonts/icons.woff2?70ef3483e892561364d5d01ee771b6ae") format("woff2"),
+url("../fonts/icons.woff?70ef3483e892561364d5d01ee771b6ae") format("woff"),
+url("../fonts/icons.ttf?70ef3483e892561364d5d01ee771b6ae") format("truetype"),
+url("../fonts/icons.svg?70ef3483e892561364d5d01ee771b6ae#icons") format("svg");
+}
+
+re{
+    line-height: 1;
+}
+
+re:before {
+    font-family: icons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    vertical-align: top;
+}
+
+.icons-Group_2:before {
+    content: "\f101";
+}
+.icons-Group_3:before {
+    content: "\f102";
+}
+.icons-Home:before {
+    content: "\f103";
+}
+.icons-Shape_15:before {
+    content: "\f104";
+}
+.icons-Shape_16:before {
+    content: "\f105";
+}
+.icons-Shape_17:before {
+    content: "\f106";
+}
+.icons-Shape_18:before {
+    content: "\f107";
+}
+.icons-add:before {
+    content: "\f108";
+}
+.icons-attend:before {
+    content: "\f109";
+}
+.icons-books:before {
+    content: "\f10a";
+}
+.icons-calender:before {
+    content: "\f10b";
+}
+.icons-call_center:before {
+    content: "\f10c";
+}
+.icons-complain:before {
+    content: "\f10d";
+}
+.icons-courses:before {
+    content: "\f10e";
+}
+.icons-department:before {
+    content: "\f10f";
+}
+.icons-department2:before {
+    content: "\f110";
+}
+.icons-diploma:before {
+    content: "\f111";
+}
+.icons-document:before {
+    content: "\f112";
+}
+.icons-exam:before {
+    content: "\f113";
+}
+.icons-finance:before {
+    content: "\f114";
+}
+.icons-group:before {
+    content: "\f115";
+}
+.icons-hr:before {
+    content: "\f116";
+}
+.icons-incall:before {
+    content: "\f117";
+}
+.icons-jobs:before {
+    content: "\f118";
+}
+.icons-mainseting:before {
+    content: "\f119";
+}
+.icons-menu:before {
+    content: "\f11a";
+}
+.icons-messages:before {
+    content: "\f11b";
+}
+.icons-notification:before {
+    content: "\f11c";
+}
+.icons-offer:before {
+    content: "\f11d";
+}
+.icons-outcall:before {
+    content: "\f11e";
+}
+.icons-roles:before {
+    content: "\f11f";
+}
+.icons-room_type:before {
+    content: "\f120";
+}
+.icons-rooms:before {
+    content: "\f121";
+}
+.icons-serach:before {
+    content: "\f122";
+}
+.icons-student:before {
+    content: "\f123";
+}
+.icons-task:before {
+    content: "\f124";
+}
+.icons-taskmangment:before {
+    content: "\f125";
+}
