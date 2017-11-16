@@ -20,15 +20,15 @@ Route::group( [ 'prefix' => '/admin', 'middleware' => [ 'auth' ] ], function () 
 		});
 		Route::prefix('categories')->group(function() {
 
-		Route::get('/', 'admin\CategoriesController@index')->name('categories.index');
+			Route::get('/', 'admin\CategoriesController@index')->name('categories.index');
 
-		Route::get('/create', 'admin\CategoriesController@create')->name('categories.create');
+			Route::get('/create', 'admin\CategoriesController@create')->name('categories.create');
 
-		Route::post('/store', 'admin\CategoriesController@store')->name('categories.store');
+			Route::post('/store', 'admin\CategoriesController@store')->name('categories.store');
 
-		Route::get('/{category}/edit', 'admin\CategoriesController@edit')->name('categories.edit');
+			Route::get('/{category}/edit', 'admin\CategoriesController@edit')->name('categories.edit');
 
-		Route::put('/{category}/update', 'admin\CategoriesController@update')->name('categories.update');
+			Route::put('/{category}/update', 'admin\CategoriesController@update')->name('categories.update');
 
 			Route::delete('/{category}/destroy', 'admin\CategoriesController@destroy')->name('categories.destroy');
 
@@ -53,6 +53,36 @@ Route::group( [ 'prefix' => '/admin', 'middleware' => [ 'auth' ] ], function () 
 			Route::get('/count', 'admin\ProductsController@count')->name('products.count');
 
 		});
+	Route::prefix('delegates')->group(function() {
+
+		Route::get('/', 'admin\DelegatesController@index')->name('delegates.index');
+
+		Route::get('/create', 'admin\DelegatesController@create')->name('delegates.create');
+
+		Route::post('/store', 'admin\DelegatesController@store')->name('delegates.store');
+
+		Route::get('/{user}/edit', 'admin\DelegatesController@edit')->name('delegates.edit');
+
+		Route::put('/{user}/update', 'admin\DelegatesController@update')->name('delegates.update');
+
+		Route::delete('/{user}/destroy', 'admin\DelegatesController@destroy')->name('delegates.destroy');
+
+	});
+	Route::prefix('stores')->group(function() {
+
+		Route::get('/', 'admin\StoresController@index')->name('stores.index');
+
+		Route::get('/create', 'admin\StoresController@create')->name('stores.create');
+
+		Route::post('/store', 'admin\StoresController@store')->name('stores.store');
+
+		Route::get('/{store}/edit', 'admin\StoresController@edit')->name('stores.edit');
+
+		Route::put('/{store}/update', 'admin\StoresController@update')->name('stores.update');
+
+		Route::delete('/{store}/destroy', 'admin\StoresController@destroy')->name('stores.destroy');
+
+	});
 
 });
 //Route::get('/admin', 'HomeController@index')->name('home');

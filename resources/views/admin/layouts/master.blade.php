@@ -481,6 +481,32 @@
 
                     </ul>
                 </li>
+                    <li class="treeview">
+                        <a href="#">
+                            <i class="fa fa-folder"></i> <span>Delegate</span>
+                            <span class="pull-right-container">
+                         <i class="fa fa-angle-left pull-right"></i>
+                        </span>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li><a href="{{route('delegates.index')}}"><i class="fa fa-circle-o"></i>Index </a></li>
+                            <li><a href="{{route('delegates.create')}}"><i class="fa fa-plus"></i> Create </a></li>
+
+                        </ul>
+                    </li>
+                    <li class="treeview">
+                        <a href="#">
+                            <i class="fa fa-folder"></i> <span>Store</span>
+                            <span class="pull-right-container">
+                         <i class="fa fa-angle-left pull-right"></i>
+                        </span>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li><a href="{{route('stores.index')}}"><i class="fa fa-circle-o"></i>Index </a></li>
+                            <li><a href="{{route('stores.create')}}"><i class="fa fa-plus"></i> Create </a></li>
+
+                        </ul>
+                    </li>
                 @endif
             </ul>
         </section>

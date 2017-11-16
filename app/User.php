@@ -31,4 +31,7 @@ class User extends Authenticatable
 	    	return true;
 	    return false;
     }
+    public function store(){
+	    return $this->belongsTo('App\Store','store_id','id');
+    }
 }
