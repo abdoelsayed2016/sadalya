@@ -42,6 +42,7 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css" rel="stylesheet" />
 
     <!-- Google Font -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
@@ -843,6 +844,8 @@
 <script src="{{asset("dist/js/pages/dashboard.js")}}"></script>
 <!-- AdminLTE for demo purposes -->
 <script src="{{asset("dist/js/demo.js")}}"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.4/js/select2.min.js
+"></script>
 @yield('scripts')
 </body>
 </html>
